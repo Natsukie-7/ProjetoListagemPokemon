@@ -1,3 +1,59 @@
-/* Importação da fonte "Amita" */
-@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+/* Importação da fonte "Amita", "Popins" */
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Poppins:wght@200&display=swap');
 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(153, 153, 153);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+
+body.dark-mode {
+    background-color: #212121;
+    color: #f5f5f5;
+    font-weight: 900;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo, header .imagem-botao {
+    width: 30px;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .logo:hover, header .imagem-botao:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+
+/* Main */
+
+main {
+    background-color: antiquewhite;
+    padding: 25px;
+
+}
+
+main .pokedex {
+    display: flex;
+}
+
+main .cartao-pokemon {
+
+}
